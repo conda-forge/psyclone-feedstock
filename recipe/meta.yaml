@@ -1,5 +1,5 @@
 {% set name = "psyclone" %}
-{% set version = "3.2.0" %}
+{% set version = "3.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/psyclone-{{ version }}.tar.gz
-  sha256: 9b3ba5c7c60dae365e06b0f6ca426d5667e004bd0049a96e6d9d468c03d79daa
+  sha256: 5e8280528f3243148be9567f8cc66e978fcf287ef07156d708ca1fcb0d78929d
 
 build:
   noarch: python
