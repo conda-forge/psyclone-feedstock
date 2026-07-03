@@ -22,10 +22,10 @@ requirements:
   run:
     - python >={{ python_min }}
     - pyparsing
-    - fparser >=0.2.0
+    - fparser ==0.2.4
     - configparser
     - jsonschema
-    - sympy
+    - sympy <=1.13.3
     - jinja2
     - termcolor
     - python-graphviz
