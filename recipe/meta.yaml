@@ -35,7 +35,7 @@ test:
     - psyclone
   commands:
     - pip check
-    - psyclone --version  # [not win] CLI not available on Windows
+    - psyclone --version
   requires:
     - python
     - pip
