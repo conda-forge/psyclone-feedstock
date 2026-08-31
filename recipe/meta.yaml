@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python {{ python_min }}
+    - python
     - pip
     - setuptools
   run:
-    - python >={{ python_min }}
+    - python
     - pyparsing
     - fparser ==0.2.4
     - configparser
@@ -35,9 +35,9 @@ test:
     - psyclone
   commands:
     - pip check
-    - psyclone --version  # [not win] CLI not available on Windows
+    - psyclone --version
   requires:
-    - python {{ python_min }}
+    - python
     - pip
 
 about:
